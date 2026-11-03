@@ -20,7 +20,8 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc && cp src/tokens.css dist/tokens.css",
+    "prepare": "npm run build"
   },
   "files": [
     "dist"
