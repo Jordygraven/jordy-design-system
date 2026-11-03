@@ -1,0 +1,30 @@
+:root {
+  --background: #0a0f1e;
+  --foreground: #f4f7ff;
+  --primary: #2dd4bf;
+  --primary-foreground: #0a0f1e;
+  --ring: #5eead4;
+  --card: rgb(255 255 255 / 0.08);
+  --card-foreground: #f4f7ff;
+  --popover: #111833;
+  --popover-foreground: #f4f7ff;
+  --muted: rgb(255 255 255 / 0.1);
+  --muted-foreground: rgb(244 247 255 / 0.78);
+  --border: rgb(255 255 255 / 0.16);
+  --input: rgb(255 255 255 / 0.18);
+  --chart-1: #2dd4bf;
+  --chart-2: #a78bfa;
+  --chart-3: #93c5fd;
+  --chart-4: #fde68a;
+  --chart-5: #f9a8d4;
+  --success: #6ee7b7;
+  --warning: #fde68a;
+  --danger: #fda4af;
+  --violet: #a78bfa;
+  --badge-pink: #f9a8d4;
+  --scrim: rgb(5 8 20 / 0.6);
+  --radius: 0.625rem;
+  --glass-blur: 22px;
+  --glass-border: rgb(255 255 255 / 0.16);
+  --glass-highlight: rgb(255 255 255 / 0.12);
+}
