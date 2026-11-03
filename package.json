@@ -1,0 +1,9 @@
+{
+  "name": "jordy-ui",
+  "version": "0.0.1",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^19",
+    "next": "^16"
+  }
+}
