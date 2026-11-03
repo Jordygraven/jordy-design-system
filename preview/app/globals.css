@@ -1,0 +1,41 @@
+@import "tailwindcss";
+@import "jordy-ui/dist/tokens.css";
+@source "../../dist";
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-ring: var(--ring);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-secondary: rgb(255 255 255 / 0.1);
+  --color-secondary-foreground: #f4f7ff;
+  --color-accent: rgb(255 255 255 / 0.1);
+  --color-accent-foreground: #f4f7ff;
+  --color-destructive: var(--danger);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-danger: var(--danger);
+  --color-income: var(--success);
+  --color-violet: var(--violet);
+  --radius-control: 0.75rem;
+  --radius-card: 1.5rem;
+  --radius-lg: var(--radius);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
